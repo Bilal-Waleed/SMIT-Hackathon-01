@@ -43,9 +43,8 @@
 /* miain image */
 .main {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    justify-content: center;
     background-color: white;
     flex-wrap: wrap;
 }
@@ -105,8 +104,5 @@
         display: block;
         font-size: 30px;
     }
-    .main{
-        display: flex;
-        justify-content: center;
-    }
+    
 }
