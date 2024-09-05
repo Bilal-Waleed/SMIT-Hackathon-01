@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.navbar-left{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+.navbar-right ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.bar{
+    display: none;
+}
+.button p {
+    padding: 20px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/* miain image */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.second-button a {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logos Image */
+.image:last-of-type {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.image:last-of-type img {
+    max-width: 80%;
+    height: auto;
+}
+
+.service-item{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar-right ul{
+        display: none;
+    }
+    .navbar-right .button{
+        display: none;
+    }
+    .navbar-right .bar{
+        display: block;
+        font-size: 30px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+}
